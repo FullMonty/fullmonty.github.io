@@ -1,0 +1,64 @@
+.. The Full Monty documentation master file, created by
+   sphinx-quickstart on Mon Jan 12 21:41:56 2015.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+###################################################
+The Full Monty scientific Python installers for OSX
+###################################################
+
+The full Monty installers give you the whole scientific Python stack in one
+easy-to-swallow installer package for OSX.
+
+We recommend you use these installers with Python from the `Python.org`_
+installers.  First install Python.org Python, then download and install from
+the disk images here.
+
+You can also use these disk images to install on homebrew_ and macports_ - see
+the README file on the disk images for instructions.
+
+Please don't use the Python that comes with OSX, it will cause you `no end of
+problems <which python_>`_ with scientific Python packages.
+
+*********************************************
+Why would I use your installer instead of ...
+*********************************************
+
+You might like to use these installers if you want a double click installer
+that will install the standard scientific Python packages in one go.
+
+These installers use the `pip`_ tool to do this.  Pip is standard installer
+for Python, `recommended <pypa recommended_>`_ by the `Python packaging
+authority`_.  The installers will also install Pip for you, if you don't have
+it (it comes by default with Python >= 3.4).
+
+You can always do something very similar to this installer using the pip
+command line, but the installer means you can download a single file that
+contains a set of packages that are known to work together.
+
+How do we know they work together?  Because we test them automatically using
+the `Travis public testing service <travis-ci_>`_ - see `wheels2dmg on
+travis-ci`_.
+
+Anyone is welcome to come help maintain these installers.  We build them with
+the `wheels2dmg`_ package, available on Github, and use the standard `Python
+Packaging Authority`_ binary package format, `wheels`_.
+
+**********************************************
+And now for the moment you've been waiting for
+**********************************************
+
+The downloads:
+
+* `disk image for Python 2.7 <https://3f23b170c54c2533c070-1c8a9b3114517dc5fe17b7c3f8c63a43.ssl.cf2.rackcdn.com/scipy-stack-py27-1.1.dmg>`_
+* `disk image for Python 3.3 <https://3f23b170c54c2533c070-1c8a9b3114517dc5fe17b7c3f8c63a43.ssl.cf2.rackcdn.com/scipy-stack-py33-1.1.dmg>`_
+* `disk image for Python 3.4 <https://3f23b170c54c2533c070-1c8a9b3114517dc5fe17b7c3f8c63a43.ssl.cf2.rackcdn.com/scipy-stack-py34-1.1.dmg>`_
+
+*******
+Support
+*******
+
+Please do drop us a line on the `wheels2dmg issue tracker`_ and we'll do our
+best to help.
+
+.. include:: links_names.inc
