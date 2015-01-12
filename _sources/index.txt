@@ -27,10 +27,10 @@ Why would I use your installer instead of ...
 You might like to use these installers if you want a double click installer
 that will install the standard scientific Python packages in one go.
 
-These installers use the `pip`_ tool to do this.  Pip is standard installer
-for Python, `recommended <pypa recommended_>`_ by the `Python packaging
-authority`_.  The installers will also install Pip for you, if you don't have
-it (it comes by default with Python >= 3.4).
+These installers use the `pip`_ tool to do this.  Pip is the standard
+package installer for Python, `recommended <pypa recommended_>`_ by the
+`Python packaging authority`_.  The installers will also install Pip for you,
+if you don't have it (it comes by default with Python >= 3.4).
 
 You can always do something very similar to this installer using the pip
 command line, but the installer means you can download a single file that
