@@ -3,7 +3,10 @@
 .. Wheels2dmg
 .. _wheels2dmg: https://github.com/matthew-brett/wheels2dmg
 .. _wheels2dmg on travis-ci: https://travis-ci.org/matthew-brett/wheels2dmg
-.. _wheels2dmg issue tracker: https://github.com/matthew-brett/wheels2dmg/issues
+.. _wheels2dmg issue tracker:
+    https://github.com/matthew-brett/wheels2dmg/issues
+.. _wheels2dmg travis configuration:
+    https://github.com/matthew-brett/wheels2dmg/blob/master/.travis.yml
 
 .. Version control
 .. _git: http://git-scm.com
@@ -26,11 +29,20 @@
 .. _pip: https://pip.pypa.io/en/latest/index.html
 .. _pypa recommended: https://python-packaging-user-guide.readthedocs.org/en/latest/current.html
 .. _Python packaging authority: https://www.pypa.io/en/latest/
-.. _numpy: http://sourceforge.net/projects/numpy/files
-.. _scipy: http://sourceforge.net/projects/scipy/files
+.. _numpy: http://www.numpy.org
+.. _scipy: http://www.scipy.org/scipylib/index.html
+.. _matplotlib: http://matplotlib.org
+.. _ipython: http://ipython.org
+.. _pandas: http://pandas.pydata.org
+.. _numexpr: https://github.com/pydata/numexpr
+.. _sympy: http://www.sympy.org
+.. _scipy stack: http://www.scipy.org/stackspec.html
+.. _scikit-learn: http://scikit-learn.org
 .. _old and new python versions: https://launchpad.net/%7Efkrull/+archive/deadsnakes
 .. _nose: http://readthedocs.org/docs/nose/en/latest
 .. _nose-ipdb: https://github.com/flavioamieiro/nose-ipdb
+.. _PyQT: http://www.riverbankcomputing.co.uk/software/pyqt/intro
+.. _VTK: http://www.vtk.org
 
 .. Virtualenv and helpers
 .. _virtualenv: http://pypi.python.org/pypi/virtualenv
@@ -79,6 +91,16 @@
 .. _homebrew: http://brew.sh
 .. _macports: https://www.macports.org
 .. _Wheels: http://legacy.python.org/dev/peps/pep-0427
+.. _xcode command line tools:
+    https://developer.apple.com/library/ios/technotes/tn2339/_index.html
+
+.. Other installers
+.. _anaconda: https://store.continuum.io/cshop/anaconda
+.. _Continuum analytics: http://www.continuum.io
+.. _Conda: http://conda.pydata.org/docs/
+.. _Enthought canopy: https://www.enthought.com/products/canopy/
+.. _Enthought: https://www.enthought.com/
+.. _Scipy SuperPack: http://fonnesbeck.github.io/ScipySuperpack
 
 .. Substitutions
 .. |emdash| unicode:: U+02014

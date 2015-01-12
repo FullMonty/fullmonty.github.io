@@ -112,7 +112,7 @@ html_theme = 'traditional'
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-#html_title = None
+html_title = "The Full Monty OSX installer"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -178,7 +178,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'TheFullMontydoc'
+htmlhelp_basename = 'TheFullMonty'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -198,7 +198,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'TheFullMonty.tex', u'The Full Monty Documentation',
+  ('index', 'TheFullMonty.tex', u'The Full Monty',
    u'Matthew Brett', 'manual'),
 ]
 
@@ -228,7 +228,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'thefullmonty', u'The Full Monty Documentation',
+    ('index', 'thefullmonty', u'The Full Monty',
      [u'Matthew Brett'], 1)
 ]
 
@@ -242,7 +242,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'TheFullMonty', u'The Full Monty Documentation',
+  ('index', 'TheFullMonty', u'The Full Monty',
    u'Matthew Brett', 'TheFullMonty', 'One line description of project.',
    'Miscellaneous'),
 ]
